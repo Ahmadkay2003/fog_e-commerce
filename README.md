@@ -25,13 +25,13 @@ The specific version for each third party library can be found in the package.js
 
 
 ### User Microservice
-This microservice serves as the API gateway which directs all requests to the appropriate microservice in charge of such request. It is a python project built on Django and djangorestframeork (drf) with the list of all dependencies listed in the requirements.txt file found in the server/user directory
+This microservice serves as the API gateway which directs all requests to the appropriate microservice in charge of such request. It is a python project built on Django and djangorestframeork (drf) with the list of all dependencies listed in the requirements.txt file found in the server/user directory.
 
 ### Product Microservice
-This microservice is responsible for creating, reading, updating and deleting of products, it contains different endpoints responsible for this tasks. It allows unauthenticated users read product but permits only authenticated users(Admin) the ability to create, update and delete items. It is a python project bulilt on django and djangorestframework and it uses simple JWT for authentication. The list of all its dependencies are listed in the requirements.txt file found in the server/product directory
+This microservice is responsible for creating, reading, updating and deleting of products, it contains different endpoints responsible for this tasks. It allows unauthenticated users read product but permits only authenticated users(Admin) the ability to create, update and delete items. It is a python project bulilt on django and djangorestframework and it uses simple JWT for authentication. The list of all its dependencies are listed in the requirements.txt file found in the server/product directory.
 
 ### Payment microservice
-This microservice is reesponsible for all payment related activities such as initializing and confirmation of payment with Paystack and getting the list of all payments history. It is a python project using flask framework. The list of all its dependencies are listed in the requirements.txt file found in the server/payment directory
+This microservice is reesponsible for all payment related activities such as initializing and confirmation of payment with Paystack and getting the list of all payments history. It is a python project using flask framework. The list of all its dependencies are listed in the requirements.txt file found in the server/payment directory.
 
 ### Notification microservice
 This microservice handles all forms of email notification to users, it handles the contact form and generate auto response for all contact us message received, and also responsible for sending bulk mails to all newsletters subscribers. It is a python project using flask framework. The list of all its dependencies are listed in the requirements.txt file found in the server/payment directory
